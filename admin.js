@@ -21,8 +21,8 @@
     const db = firebase.firestore();
 
     // Firestore references
-    const CONFIG_REF = db.collection('portfolioConfig').doc('main');
-    const VIDEOS_REF = db.collection('videos');
+    const CONFIG_REF = db.collection('portfolioConfig').doc('wedding');
+    const VIDEOS_REF = db.collection('wedding_videos');
 
     // ===== STATE =====
     let currentThumbDocId = null;
